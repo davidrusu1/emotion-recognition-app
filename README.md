@@ -22,4 +22,4 @@ A real-time emotion recognition application that detects faces from a webcam and
 
 ## Project Status
 
-🚧 Work in progress
+Work in progress :DDDD
