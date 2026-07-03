@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+
+# Models
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
