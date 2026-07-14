@@ -10,7 +10,11 @@ while True:
         print("Camera is not connected")
         break
 
-    camera.show_image(detector.detect(frame))
+    frame_shown, faces = detector.detect(frame)
+    #for face, _ in faces:
+        #emotion, confidence = classifier.predict(face)
+        #print(emotion, confidence)
+    camera.show_image(frame_shown)
        
     if camera.is_exit_required():
         break
